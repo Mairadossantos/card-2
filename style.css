@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://images3.alphacoders.com/133/1339216.png) no-repeat center;   
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.card .info {
+    padding: 20px;
+}
+
+.card .info h2 {
+    margin: 10px 0;
+}
+
+.card .info p {
+    margin: 5px 0;
+    color: #111;
+}
+
+.card .info h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
